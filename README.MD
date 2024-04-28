@@ -27,18 +27,27 @@ Use JYNX emulator, and .TAP file will auto-execute.
  device zxspectrum128
 
 	org $6500-13				; Origin
+
 tap_b:	db $22,"NONAME",$22			;name		  	
+
 	db "M"					;type		  	
+
 	dw end-begin				;program length	  	
+
 	dw begin				;load point		
+
 	org $6500
+
 begin:
 
 ...
+
 	OUT ($84), a
+
 ...
 
 end
 
 tap_e:	savebin "letsgo.tap",tap_b,tap_e-tap_b
+
 
