@@ -6,9 +6,10 @@ camputers Lynx
 All of these tunes and engines have been brought over from the ZX Spectrum - most of them, or at least, the engines/players, have been written by Utz and Shiru.
 For more information, join the 1-bit forum :  http://randomflux.info/1bit
 
+
 Below is a snippet of info that is needed to change from the ZX Speccy 1-bit players to drive the speaker for the Lynx.
 Use the Lynx emulator, "JYNX". Works well.
----
+
 
 Assemble using SJASMPLUS.
 origin	$6500
@@ -19,9 +20,6 @@ BASIC RUN:	DEF USR0=&6500
 
 Use JYNX emulator, and .TAP file will auto-execute.
 
-
-
----
 
 
 
